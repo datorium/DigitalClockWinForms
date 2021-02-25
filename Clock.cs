@@ -22,6 +22,7 @@ namespace DigitalClockWinForms
             InitializeComponent();
             this.BackColor = Color.Black;
             Display.ForeColor = Color.White;
+            ButtonStop.FlatStyle = FlatStyle.Flat;
             ButtonStop.ForeColor = Color.White;
             ClockTimer.Start();
         }
